@@ -1,0 +1,13 @@
+Panda p = new Panda ("Sam");    //Call constructor
+
+public class Panda
+{
+    string name;                //Define field
+    public Panda (string n)     //Define constructor
+    {
+        name = n;               //Initialization code
+    }
+    public int Age = 9;
+    static readonly int legs = 2, arms = 4, eyes = 3;
+}
+
